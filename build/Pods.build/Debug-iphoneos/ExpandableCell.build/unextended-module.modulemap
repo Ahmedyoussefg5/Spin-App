@@ -1,0 +1,10 @@
+framework module ExpandableCell {
+  umbrella header "ExpandableCell-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ExpandableCell.__Swift {
+    exclude header "ExpandableCell-Swift.h"
+}
